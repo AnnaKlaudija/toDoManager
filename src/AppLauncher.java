@@ -4,7 +4,11 @@ public class AppLauncher {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-//1 file committed:test 2
+
+		System.out.println("Pamācība kā izmantot: aprakstīt funkcijas ");
+		Scanner sc = new Scanner(System.in);
+
+		String userInput = sc.nextLine();
 
 	}
 
