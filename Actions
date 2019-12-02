@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class Actions {
+
+	/*String action;
+	String date;
+	//String taskText;
+
+	Actions (String action, String date, String task, String taskText) {
+		this.action = action;
+		this.date = date;
+		//this.taskText = taskText;
+
+		}
+
+	//void add(String taskText) {
+	 *
+	 */
+
+		HashMap <date, taskText > taskList = new HashMap<>();
+
+
+}
