@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Input {
+
+	public static void main(String[] args) {
+		System.out.println("Enter text in a specific form : action(add, remove, edit) date(DD/MM/YYYY) :text");
+
+		Scanner sc = new Scanner(System.in);
+		String userInput = sc.nextLine();
+		//while (userInput != "exit") {
+
+			String[] action = userInput.split(" ");
+			System.out.println(action[0]);
+
+			//System.out.println(action.length);
+
+
+		String[] date = userInput.split(" ");
+		System.out.println(date[1]);
+		//System.out.println(date.length);
+
+		int textBefore = (action[0].length() + date[1].length()+1);
+
+
+		String taskText = userInput.substring(textBefore);
+
+		System.out.println(taskText.trim());
+
+		}
+	}
